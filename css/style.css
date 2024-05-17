@@ -1,0 +1,813 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Barra de navegacion */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar {
+    padding: 2rem;
+    background-color: #1797c9;
+
+}
+
+.navbar img {
+    padding-left: 60px;
+}
+
+.navbar a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+    color: #f1f1f1;
+    padding-right: 60px;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1120px;
+    justify-content: center;
+    align-items: start;
+
+}
+
+/* Trabajando la imagen de la Hero Section */
+
+.hero {
+    background-image: url(../img/imagen\ principal\ degradado.jpg);
+    width: 100%;
+    height: 1120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-principal {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-left: 72px;
+}
+
+.hero-principal h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.hero-principal span {
+    font-weight: 800;
+    color: #e75f80;
+}
+
+.hero-principal button {
+    background-color: #e75f80;
+    padding: 12px;
+}
+
+/* Seccion Data */
+
+.Data {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: last baseline;
+    padding: 56px;
+    background-color: #EBF8FC;
+}
+
+.Data h3 {
+    color: #e75f80;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.Data h4 {
+    color: #1e1e1e;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Seccion Infancias */
+
+.infancias {
+    display: flex;
+    height: 540px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infancias div {
+    margin-left: 72px;
+}
+
+.infancias h2 {
+    font-size: 40px;
+}
+
+.infancias span {
+    color: #e75f80;
+}
+
+.infancias button {
+    font-weight: 600;
+    color: #e75f80;
+    border: 2px solid;
+    border-color: #e75f80;
+}
+
+/* Seccion Elles */
+
+.container-elles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 800px;
+}
+
+.container-elles img {
+    width: 100%;
+    height: auto;
+}
+
+.container-elles div h2 {
+    text-align: center;
+    padding-top: 24px;
+}
+
+
+.container-elles button {
+    font-weight: 600;
+    color: #e75f80;
+    border: 2px solid;
+    border-color: #e75f80;
+}
+
+
+/* Seccion procedimientos */
+
+
+.grid-container {
+    /*habilitamos la grilla*/
+    display: grid;
+    /*habilitamos filas*/
+    grid-auto-rows: 250px;
+    /*habilitamos columnas*/
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.grid-item {
+    background-color: #EBF8FC;
+    padding: 16px;
+    text-align: center;
+}
+
+.primer-item {
+    grid-column: 1/5;
+}
+
+.segundo-item {
+    grid-row: 2/5;
+    background-image: url(..//img/trans\ boy.png);
+    background-repeat: no-repeat;
+}
+
+.tercer-item {
+    grid-column: 2/5;
+}
+
+.tercer-item h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #E75F80;
+    margin: 24px 0px 0px -48px;
+    text-align: left;
+}
+
+.tercer-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 24px 0px 0px -48px;
+    text-align: left;
+}
+
+.tercer-item select {
+    margin: 24px 0px 0px -48px;
+}
+
+.tercer-item a {
+    margin: 24px 0px 0px -48px;
+}
+
+.cuarto-item {
+    grid-row: 3/5;
+}
+
+.cuarto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -48px;
+    text-align: left;
+}
+
+.cuarto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -48px;
+    text-align: left;
+}
+
+.cuarto-item ul li {
+    padding: 4px;
+}
+
+.quinto-item {
+    grid-row: 3/5;
+}
+
+.quinto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -48px;
+    text-align: left;
+}
+
+.quinto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -48px;
+    text-align: left;
+}
+
+.quinto-item ul li {
+    padding: 4px;
+}
+
+.sexto-item {
+    grid-row: 3/5;
+}
+
+.sexto-item h3 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 48px 24px 12px -96px;
+    text-align: left;
+}
+
+.sexto-item ul {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    color: #1E1E1E;
+    margin: 32px 24px 12px -96px;
+    text-align: left;
+}
+
+.sexto-item ul li {
+    padding: 4px;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    background-color: #1797c9;
+    width: 100%;
+    height: 320px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-inf {
+    margin-left: 60px;
+}
+
+.redes {
+    margin-left: 120px;
+}
+
+.redes img {
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
+
+.info {
+    text-align: end;
+    color: #f1f1f1;
+    margin-right: 60px;
+}
+
+.info h5 {
+    font-weight: 300;
+}
+
+
+/* Responsive Pagina principal */
+
+@media screen and (max-width: 767px) {
+
+    .navbar-brand {
+        display: none;
+    }
+}
+
+
+/* SERVICIOS
+
+Seccion Tratamiento */
+
+.tratamiento {
+    background-image: url(../img/trh.png);
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tratamiento-principal {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.tratamiento-principal h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.tratamiento-principal h2 {
+    font-weight: 700;
+    color: #EBF8FC;
+    margin-top: 24px;
+}
+
+.tratamiento-principal h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tratamiento-principal button {
+    background-color: #e75f80;
+    width: 720px;
+    padding: 12px;
+    margin-top: 24px;
+}
+
+
+/* Seccion Especialidades */
+
+.especialidades {
+    margin-top: 240px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.especialidades span {
+    color: #E75F80;
+}
+
+.especialidades p {
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 200px;
+}
+
+/* Grid de seccion especialidades */
+
+.container-espe {
+    /*habilitamos la grilla*/
+    display: grid;
+    /*habilitamos filas*/
+    grid-auto-rows: 320px;
+    /*habilitamos columnas*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.container-espe h3 {
+    color: #f1f1f1;
+}
+
+.grid-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.uno-item {
+    background-image: url(../img/esp\ nutricion.png);
+}
+
+.dos-item {
+    background-image: url(../img/esp\ odontologia.png);
+}
+
+.tres-item {
+    background-image: url(../img/esp\ psicología.png);
+}
+
+.cuatro-item {
+    background-image: url(../img/esp\ sexologia.png);
+}
+
+.cinco-item {
+    background-image: url(../img/esp\ trauma.png);
+}
+
+.seis-item {
+    background-image: url(../img/esp\ urologia.png);
+}
+
+.siete-item {
+    background-image: url(../img/esp\ estetica.png);
+}
+
+.ocho-item {
+    background-image: url(../img/cirugia.png);
+    grid-column: 2/4;
+}
+
+
+/* Seccion citas */
+
+.Citas {
+    margin-left: 80px;
+
+}
+
+.Citas h2 {
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-top: 200px;
+
+}
+
+.Citas h3 span {
+    font-weight: 700;
+    color: #1797c9;
+    margin-top: 24px;
+}
+
+.Citas h4 u {
+    color: #1797c9;
+
+}
+
+.Citas h5,
+ol,
+ul {
+
+    margin-left: 100px;
+}
+
+.Citas button {
+    background-color: #1797c9;
+    width: 720px;
+    padding: 12px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+
+/* Seccion Transslabs */
+
+.Translabs {
+    background-image: url(../img/labs.png);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Translabs h2 {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.Translabs a {
+    color: #f1f1f1;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* NOSOTRES
+
+Seccion Nosotres */
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1120px;
+    justify-content: center;
+    align-items: start;
+
+}
+
+/* Trabajando la imagen de la Hero Section */
+
+.Nosotres {
+    background-image: url(../img/nosotres.png);
+    background-size: cover;
+    height: 1120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Nosotres {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+.Nosotres h1 {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.Nosotres h2 {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.Nosotres span {
+    font-weight: 800;
+    color: #F1AABA;
+}
+
+.Nosotres p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+
+/* Seccion Doctora */
+
+.Doctora {
+    background-color: #EBF8FC;
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Doctora h2 {
+    text-align: left;
+    font-weight: 700;
+}
+
+.Doctora span {
+    color: #E75F80;
+}
+
+.Doctora button {
+    background-color: #E75F80;
+    width: 720px;
+    margin-top: 60px;
+}
+
+
+
+/*   Seccion Doctores */
+
+.Doctores {
+    height: 1200px;
+    margin-top: 240px;
+}
+
+.Container-doctores {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.Container-doctores h2,
+h3,
+p {
+    margin-top: 16px;
+}
+
+.Container-doctores button {
+    margin-top: 72px;
+    width: 480px;
+    background-color: #1797c9;
+}
+
+.dra-deni h2 span {
+    color: #E75F80;
+}
+
+.dr-gera h2 span {
+    color: #1797c9;
+}
+
+
+/* TRANSLABS 
+Seccion Translabs */
+
+.Translabs {
+    background-image: url(../img/transslabs.png);
+    width: 100%;
+    background-size: cover;
+    height: 1120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Translabs {
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.Translabs h1 {
+    font-size: 64px;
+    font-weight: 800px;
+}
+
+.Translabs h1 span {
+    font-size: 64px;
+    color: #F1AABA;
+}
+
+.Translabs p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* Seccion Paquetes */
+
+.paquetes-analisis {
+    margin-top: 240px;
+    margin-bottom: 240px;
+}
+
+.paquetes-analisis h2 {
+    margin-bottom: 80px;
+
+}
+
+.paquetes-analisis h2 span {
+    color: #E75F80;
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card-body h5 {
+    font-size: 32px;
+    font-weight:700;
+    margin-bottom:24px;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 20px;
+}
+
+.card-body h6 {
+    color: #1797c9;
+    font-weight:700;
+}
+.card-body ul li {
+  font-size: 14px;
+}
+
+.precio {
+    text-align: center;
+    font-size: 36px;
+    color: #1797c9;
+    margin-top: 60px;
+}
+.card-body button {
+    background-color: #E75F80;
+    border: #E75F80;
+    width: 640px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
